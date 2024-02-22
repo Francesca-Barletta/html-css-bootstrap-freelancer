@@ -1,8 +1,11 @@
-header{
+header, .copyright{
     background-color: #2C3E50;
 }
 .hero, .about{
     background-color: #1ABC9C;
+}
+footer{
+    background-color: #3A546D;
 }
 ul, ol, menu{
     list-style: none;
