@@ -1,8 +1,15 @@
+.menu-header{
+    text-decoration: none;
+    color: currentColor;
+}
 header, .copyright{
     background-color: #2C3E50;
 }
-.hero, .about{
+.hero, .about, .ms-btn, {
     background-color: #1ABC9C;
+}
+.marked-text{
+    color: #1ABC9C;
 }
 footer{
     background-color: #3A546D;
@@ -29,4 +36,27 @@ footer{
 }
 .hero-img{
     max-width: 230px;
+}
+form input,
+form textarea{
+    border: none;
+}
+.ms-btn{
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+    display: inline-block;
+}
+i.footer-list{
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: block;
+    width: 35px;
+    font-size: 15px;
+    line-height: 15px;
+    
 }

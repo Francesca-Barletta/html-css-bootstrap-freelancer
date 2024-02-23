@@ -20,9 +20,9 @@
             <div class="row justify-content-between align-items-center">
                 <div class="col-auto fs-3">START BOOTSTRAP</div>
                 <ul class="col-auto list-unstyled mb-0 d-none d-md-flex">
-                    <li class="px-2"><a class="" href="#">PORTFOLIO</a></li>
-                    <li class="px-2"><a class="" href="#">ABOUT</a></li>
-                    <li class="px-2"><a class="" href="#">CONTACT</a></li>
+                    <li class="px-2"><a class="menu-header" href="#">PORTFOLIO</a></li>
+                    <li class="px-2"><a class="menu-header" href="#">ABOUT</a></li>
+                    <li class="px-2"><a class="menu-header" href="#">CONTACT</a></li>
                 </ul>
                 <i class="fa-solid fa-bars col-auto d-md-none"></i>
             </div>
@@ -112,52 +112,42 @@
         </div>
     </section>
 
-    <section class="contact-me py-3">
-        <div class="container mx-auto mb-2">
-            <div class="row flex-column align-items-center mb-3">
-                <p class="col-auto fs-3">CONTACT ME</p>
-                 <i class="col-auto fa-solid fa-star"></i>
-            </div>
-            <form action="post">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="">
-                    <label for="floatingInput">Name</label>
-                  </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingInput" placeholder="">
-                    <label for="floatingInput">Email Address</label>
+    <section class="contact-me py-5">
+        <div class="container text-center">
+                <p class="fs-3">CONTACT ME</p>
+                <div class="star-deco-black mb-3">
+                    <i class="fs-3 mx-3 col-auto fa-solid fa-star"></i>
                 </div>
-                <div class="form-floating mb-3">
-                    <input type="number" class="form-control" id="floatingInput" placeholder="">
-                    <label for="floatingInput">Phone Number</label>
-                </div>
-                <div class="form-floating  mb-3">
-                    <textarea class="form-control" id="floatingTextarea" placeholder=""style="height: 100px"></textarea>
-                    <label for="floatingInput">Message</label>
-                </div>
-                <button type="button" class="btn btn-success">Send</button>
+        </div>
+        <div class="container py-3">
+            <form action="post" class="w-75 mx-auto">
+               <input type="text" class="name d-block w-100 border-bottom placeholder-fs-4" placeholder="Name">
+               <input type="email" class="email d-block w-100 border-bottom" placeholder="Email Address">
+               <input type="number" class="phone-number d-block w-100 border-bottom" placeholder="Phone Number">
+               <textarea name="Message" class="d-block w-100 border-bottom" id="" cols="100" rows="6" class="d-block" placeholder="Message"></textarea>
+               <a href="#" class="ms-btn">Send</a>
             </form>
         </div>
     </section>
 
     <footer>
-        <div class="container mx-auto text-white py-3 ">
+        <div class="container text-white py-5 ">
             <div class="row justify-content-center row-cols-1 row-cols-md-3">
                 <div class="col-auto text-center">
                     <div class="p-3">
                         <p class="fs-2">LOCATION</p>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing.</P>
+                        <P>2215 John Daniel Drive Clark, MO 54243</P>
                     </div>
                 </div>
 
                 <div class="col-auto text-center">
                     <div class="p-3">
                         <p class="fs-2">AROUND THE WEB</p>
-                        <ul class="d-flex justify-content-between ps-0">
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
-                            <li><i class="fa-solid fa-star"></i></li>
+                        <ul class="d-flex justify-content-between align-items-center ps-0 list-unstyled">
+                            <li class="footer-list"><i class="fa-brands fa-facebook-f footer-list"></i></li>
+                            <li class="footer-list"><i class="fa-brands fa-google-plus-g footer-list"></i></li>
+                            <li class="footer-list"><i class="fa-brands fa-twitter footer-list"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in footer-list"></i></li>
                         </ul>
                     </div>
                 </div>
@@ -165,15 +155,15 @@
                 <div class="col-auto text-center">
                     <div class="p-3">
                         <p class="fs-2">ABOUT FREELANCER</p>
-                        <P>Lorem ipsum dolor sit amet consectetur adipisicing.</P>
+                        <P>Freelance is a free to use, open source Bootstrap theme created by <span class="marked-text">Start Bootstrap</span>.</P>
                     </div>
                 </div>
             </div>
 
         </div>
-        <div class="copyright py-3">
+        <div class="copyright py-5">
             <div class="container text-center text-white">
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>Copyright &copy; Your Website 2019</p>
             </div>
         </div>
     </footer>
