@@ -7,6 +7,26 @@ header, .copyright{
 footer{
     background-color: #3A546D;
 }
-ul, ol, menu{
-    list-style: none;
+.star-deco-black::before,
+.star-deco-black::after{
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 7px;
+    border-radius: 2px;
+}
+.star-deco-white::before,
+.star-deco-white::after{
+    content: "";
+    width: 10%;
+    height: 4px;
+    background-color: white;
+    display: inline-block;
+    margin-bottom: 7px;
+    border-radius: 2px;
+}
+.hero-img{
+    max-width: 230px;
 }

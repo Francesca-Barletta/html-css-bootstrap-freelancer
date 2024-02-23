@@ -15,14 +15,14 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header class="text-white">
+    <header class="text-white py-2">
         <div class="container">
             <div class="row justify-content-between align-items-center">
-                <div class="col-auto fs-3">Logo</div>
-                <ul class="col-auto mb-0 d-none d-md-flex">
-                    <li class="px-2">link</li>
-                    <li class="px-2">link</li>
-                    <li class="px-2">link</li>
+                <div class="col-auto fs-3">START BOOTSTRAP</div>
+                <ul class="col-auto list-unstyled mb-0 d-none d-md-flex">
+                    <li class="px-2"><a class="" href="#">PORTFOLIO</a></li>
+                    <li class="px-2"><a class="" href="#">ABOUT</a></li>
+                    <li class="px-2"><a class="" href="#">CONTACT</a></li>
                 </ul>
                 <i class="fa-solid fa-bars col-auto d-md-none"></i>
             </div>
@@ -31,70 +31,84 @@
    
 
     <section class="hero text-white py-3">
-        <div class="container-sm mx-auto">
-            <div class="row justify-content-center">
-                <div class="col-auto d-flex flex-column align-items-center">
-                    <img src="./img/avatar.svg" alt="">
-                    <p class="fs-2">START BOOTSTRAP</p>
-                    <i class="fa-solid fa-star"></i>
-                    <p class="fs-4">ciao-ciao-ciao</p>
-                </div>
+        <div class="container text-center">
+               
+                    <img src="./img/avatar.svg" class="hero-img" alt="">
+                    <p class="h1 py-3">START BOOTSTRAP</p>
+                    <div class="star-deco-white mb-3">
+                        <i class="fs-3 mx-3 col-auto fa-solid fa-star"></i>
+                    </div>
+                    <p class="fs-4">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                
             </div>
         </div>
     </section>
 
-    <section class="portfolio py-3">
-            <div class="container-sm mx-auto mb-2">
-                <div class="row flex-column align-items-center">
-                    <p class="col-auto fs-3">PORTFOLIO</p>
-                     <i class="col-auto fa-solid fa-star"></i>
-                </div>
+    <section class="portfolio text-center py-5">
+            <div class="container">
+                
+                    <p class="col-auto fs-1">PORTFOLIO</p>
+                    <div class="star-deco-black mb-3">
+                        <i class="fs-3 mx-3 col-auto fa-solid fa-star"></i>
+                    </div>
             </div>
             <div class="container">
                 <div class="row g-3 row-cols-1 row-cols-md-2 row-cols-lg-3">
                     <div class="col">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/cabin.png" class="card-img" alt="">
+                        </div>
                     </div>
                     <div class="col ">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/cake.png" class="card-img" alt="">
+                        </div>
                     </div>
                     <div class="col ">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/circus.png" class="card-img" alt="">
+                        </div>
                     </div>
                     <div class="col ">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/game.png" class="card-img" alt="">
+                        </div>
                     </div>
                     <div class="col ">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/safe.png" class="card-img" alt="">
+                        </div>
                     </div>
                     <div class="col ">
-                        <div class="p-3 bg-success text-white">ciao</div>
+                        <div class="card">
+                            <img src="./img/submarine.png" class="card-img" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
     </section>
 
-    <section class="about text-white py-3">
-        <div class="container container-md mx-auto mb-2">
-            <div class="row flex-column align-items-center">
-                <p class="col-auto fs-3">ABOUT</p>
-                 <i class="col-auto fa-solid fa-star"></i>
-            </div>
+    <section class="about text-white py-5">
+        <div class="container text-center">
+                <p class="fs-1">ABOUT</p>
+                <div class="star-deco-white mb-3">
+                    <i class="fs-3 mx-3  fa-solid fa-star"></i>
+                </div>
         </div>
-        <div class="container mx-auto mb-2">
+        <div class="container">
             <div class="row row-cols-1 row-cols-md-2">
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat commodi suscipit quo atque hic laborum soluta doloremque aliquid asperiores. Facere?</p>
+                    <p class="py-3 ps-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat commodi suscipit quo atque hic laborum soluta doloremque aliquid asperiores. Facere?Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat commodi suscipit quo atque hic laborum soluta doloremque aliquid asperiores. Facere?</p>
+                    <p class="py-3 pe-md-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat commodi suscipit quo atque hic laborum soluta doloremque aliquid asperiores. Facere?Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
         </div>
-        <div class="container mx-auto mb-2">
-            <div class="row justify-content-center">
-                <button type="button" class="btn btn-secondary col-auto">Download</button>
-            </div>
+        <div class="container text-center">
+           
+                <button type="button" class="btn btn-outline-light"><i class="fa-solid fa-download pe-1"></i>Download</button>
+            
         </div>
     </section>
 
